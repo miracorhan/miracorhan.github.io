@@ -3,68 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Mirac Orhan - Software Developer and Electronic Technician with expertise in C#, Python, and more. Contact for detailed CV and projects.">
-    <meta property="og:title" content="Mirac Orhan - Software Developer">
-	<meta property="og:description" content="Expert in C#, Python, and more. Contact for detailed CV and projects.">
-	<meta property="og:image" content="https://miracorhan.com.tr/your-photo.jpg">
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X4FZ8T6SRW"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-X4FZ8T6SRW');
-	</script>
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<title>Mirac Orhan - CV and Introduction</title>
+    <meta name="description" content="Mirac Orhan – Software Developer & Electronic Technician. 15+ years of experience in C#, Python, C, SQL, ERP systems, and electronic design. Based in the Netherlands.">
+    <meta name="keywords" content="Mirac Orhan, Software Developer, Electronic Technician, C#, Python, ERP, MSSQL, ASP.NET, JavaScript, Netherlands, elektronik teknisyen, yazılım geliştirici">
+    <meta name="author" content="Mirac Orhan">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://miracorhan.github.io/">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mirac Orhan | Software Developer & Electronic Technician">
+    <meta property="og:description" content="15+ years of experience in C#, Python, ERP systems, and electronic design. Currently working in the Netherlands.">
+    <meta property="og:image" content="https://miracorhan.github.io/your-photo.jpg">
+    <meta property="og:url" content="https://miracorhan.github.io/">
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Mirac Orhan">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mirac Orhan | Software Developer & Electronic Technician">
+    <meta name="twitter:description" content="15+ years of experience in C#, Python, ERP systems, and electronic design. Based in the Netherlands.">
+    <meta name="twitter:image" content="https://miracorhan.github.io/your-photo.jpg">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mirac Orhan",
+        "jobTitle": "Software Developer & Electronic Technician",
+        "url": "https://miracorhan.github.io/",
+        "image": "https://miracorhan.github.io/your-photo.jpg",
+        "email": "mirac.orhan@gmail.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/miracorhan/",
+            "https://www.instagram.com/mirac.orhan_/"
+        ],
+        "knowsAbout": ["C#", "Python", "C", "JavaScript", "SQL", "ERP Systems", "ASP.NET MVC", "Electronic Design"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "NL"
+        }
+    }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4FZ8T6SRW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X4FZ8T6SRW');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Mirac Orhan | Software Developer & Electronic Technician</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <!-- Inline CSS -->
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #F5F5F5; /* Açık gri arka plan */
-            color: #333; /* Koyu gri metin rengi */
+            background-color: #F5F5F5;
+            color: #333;
         }
 
         section {
             padding: 60px 0;
-            background-color: #FFFFFF; /* Beyaz bölüm arka planı */
+            background-color: #FFFFFF;
         }
 
         h2 {
             margin-bottom: 20px;
-            color: #1976D2; /* Koyu mavi başlık rengi */
+            color: #1976D2;
         }
 
         .navbar {
             margin-bottom: 0;
-            background-color: #1976D2 !important; /* Koyu mavi navbar */
+            background-color: #1976D2 !important;
         }
 
         .navbar-brand, .nav-link {
-            color: #FFFFFF !important; /* Beyaz navbar metin rengi */
+            color: #FFFFFF !important;
         }
 
         .nav-link:hover {
-            color: #FF6F61 !important; /* Turuncu hover rengi */
+            color: #FF6F61 !important;
+        }
+
+        .nav-link.active-section {
+            color: #FF6F61 !important;
+            font-weight: 600;
+            border-bottom: 2px solid #FF6F61;
         }
 
         .bg-light {
-            background-color: #F5F5F5 !important; /* Açık gri arka plan */
+            background-color: #F5F5F5 !important;
         }
 
         .bg-dark {
-            background-color: #1976D2 !important; /* Koyu mavi arka plan */
+            background-color: #1976D2 !important;
         }
 
         .text-white {
-            color: #FFFFFF !important; /* Beyaz metin rengi */
+            color: #FFFFFF !important;
         }
 
         .text-center {
@@ -74,7 +116,7 @@
         .lead {
             font-size: 1.25rem;
             font-weight: 300;
-            color: #333; /* Koyu gri metin rengi */
+            color: #333;
         }
 
         .list-unstyled {
@@ -97,22 +139,22 @@
         }
 
         .btn-primary {
-            background-color: #1976D2; /* Koyu mavi buton rengi */
+            background-color: #1976D2;
             border-color: #1976D2;
         }
 
         .btn-primary:hover {
-            background-color: #0D47A1; /* Daha koyu mavi hover rengi */
+            background-color: #0D47A1;
             border-color: #0D47A1;
         }
 
         .btn-secondary {
-            background-color: #FF6F61; /* Turuncu buton rengi */
+            background-color: #FF6F61;
             border-color: #FF6F61;
         }
 
         .btn-secondary:hover {
-            background-color: #E65A50; /* Daha koyu turuncu hover rengi */
+            background-color: #E65A50;
             border-color: #E65A50;
         }
 
@@ -124,11 +166,12 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            z-index: 1000; /* Diğer içeriklerin üzerinde kalmasını sağlar */
+            z-index: 1000;
+            animation: slideInRight 0.8s ease 1.2s both;
         }
 
         .icon-link {
-            background-color: #1976D2; /* Koyu mavi ikon rengi */
+            background-color: #1976D2;
             color: white;
             width: 50px;
             height: 50px;
@@ -137,28 +180,29 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            transition: background-color 0.3s;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti ekler */
+            transition: background-color 0.3s, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .icon-link:hover {
-            background-color: #0D47A1; /* Daha koyu mavi hover rengi */
+            background-color: #0D47A1;
+            transform: scale(1.18);
         }
 
         .icon-link:nth-child(2) {
-            background-color: #FF6F61; /* Turuncu ikon rengi */
+            background-color: #FF6F61;
         }
 
         .icon-link:nth-child(2):hover {
-            background-color: #E65A50; /* Daha koyu turuncu hover rengi */
+            background-color: #E65A50;
         }
 
         .icon-link:nth-child(3) {
-            background-color: #4CAF50; /* Yeşil ikon rengi */
+            background-color: #4CAF50;
         }
 
         .icon-link:nth-child(3):hover {
-            background-color: #45A049; /* Daha koyu yeşil hover rengi */
+            background-color: #45A049;
         }
 
         /* Language Selector */
@@ -167,8 +211,8 @@
         }
 
         .language-selector select {
-            background-color: #1976D2; /* Koyu mavi arka plan */
-            color: #FFFFFF; /* Beyaz metin rengi */
+            background-color: #1976D2;
+            color: #FFFFFF;
             border: none;
             padding: 5px 10px;
             border-radius: 5px;
@@ -176,7 +220,7 @@
         }
 
         .language-selector select:hover {
-            background-color: #0D47A1; /* Daha koyu mavi hover rengi */
+            background-color: #0D47A1;
         }
 
         /* Responsive Design */
@@ -196,6 +240,142 @@
             .icon-link {
                 width: 40px;
                 height: 40px;
+            }
+        }
+
+        /* =====================
+           ANIMATIONS
+        ===================== */
+
+        /* Typing cursor */
+        .typing-cursor {
+            display: inline-block;
+            width: 3px;
+            background-color: #FF6F61;
+            animation: blink 0.75s step-end infinite;
+            margin-left: 3px;
+            vertical-align: middle;
+            height: 1em;
+            border-radius: 1px;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Scroll fade-in */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(35px);
+            transition: opacity 0.65s ease, transform 0.65s ease;
+        }
+
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Skill icons enhanced hover */
+        .skill-item {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease;
+            padding: 12px;
+            border-radius: 14px;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-12px) scale(1.12);
+            filter: drop-shadow(0 12px 22px rgba(25, 118, 210, 0.4));
+        }
+
+        .skill-item h4 {
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+            margin-top: 8px;
+        }
+
+        .skill-item:hover h4 {
+            color: #1976D2;
+        }
+
+        /* Profile photo hover */
+        .profile-photo {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .profile-photo:hover {
+            transform: scale(1.06);
+            box-shadow: 0 18px 36px rgba(25, 118, 210, 0.3) !important;
+        }
+
+        /* Section h2 underline */
+        section h2 {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background-color: #1976D2;
+            transition: width 0.5s ease 0.2s;
+        }
+
+        section h2.underline-active::after {
+            width: 50%;
+        }
+
+        /* Floating icons entrance */
+        @keyframes slideInRight {
+            from { transform: translateX(80px); opacity: 0; }
+            to   { transform: translateX(0);    opacity: 1; }
+        }
+
+        /* Back to Top button */
+        #backToTop {
+            position: fixed;
+            bottom: 90px;
+            left: 20px;
+            width: 44px;
+            height: 44px;
+            background-color: #1976D2;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.2s;
+            z-index: 999;
+            pointer-events: none;
+        }
+
+        #backToTop.visible {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        #backToTop:hover {
+            background-color: #0D47A1;
+        }
+
+        @media (max-width: 768px) {
+            #backToTop {
+                bottom: 70px;
+                left: 12px;
+                width: 38px;
+                height: 38px;
             }
         }
     </style>
@@ -228,6 +408,7 @@
                     <option value="en">English</option>
                     <option value="tr">Türkçe</option>
                     <option value="nl">Nederlands</option>
+                    <option value="de">Deutsch</option>
                 </select>
             </div>
         </div>
@@ -237,12 +418,14 @@
     <section id="about" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center">
-                    <img src="your-photo.jpg" alt="Mirac Orhan" class="img-fluid rounded-circle mb-4" style="max-width: 250px;">
+                <div class="col-lg-6 text-center fade-in-up">
+                    <img src="your-photo.jpg" alt="Mirac Orhan – Software Developer & Electronic Technician" class="img-fluid rounded-circle mb-4 profile-photo" style="max-width: 250px;">
                     <h2 data-translate="name">Mirac Orhan</h2>
-                    <p class="lead" data-translate="title">Software Developer<br>Electronic Technician</p>
+                    <p class="lead" data-translate="title" style="min-height: 2em;">
+                        <span id="typingText"></span><span class="typing-cursor"></span>
+                    </p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 fade-in-up">
                     <h2 data-translate="about">About</h2>
                     <p class="lead" data-translate="aboutText">
                         I started to get interested in software and electronics in 2010 and continue to develop in these areas. I worked for about 6 years on electronics and server systems in the marine sector. Since 2019, I have been working with production (ERP) based systems, specializing in C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript languages. I am currently working in the software sector in the Netherlands and continuing to improve myself.
@@ -256,7 +439,7 @@
     <section id="experience" class="bg-light py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center fade-in-up">
                     <h2 data-translate="experience">Experience</h2>
                     <p class="lead" data-translate="experienceText">
                         I have over 20 software projects. As these projects are for commercial purposes, I cannot share them here. For detailed information and CV, please contact <a href="mailto:mirac.orhan@gmail.com">mirac.orhan@gmail.com</a>.
@@ -266,56 +449,56 @@
         </div>
     </section>
 
-	<!-- Skills Section -->
-	<section id="skills" class="py-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2 data-translate="skills">Skills</h2>
-					<div class="row justify-content-center gap-4">
-						<div class="col-auto text-center">
-							<img src="c-sharp-c.228x256.png" alt="C#" class="img-fluid mb-2" style="height: 100px;">
-							<h4>C#</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="c-original.223x256.png" alt="C" class="img-fluid mb-2" style="height: 100px;">
-							<h4>C</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="python.256x254.png" alt="Python" class="img-fluid mb-2" style="height: 100px;">
-							<h4>Python</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="sql-database-generic.380x512.png" alt="SQL" class="img-fluid mb-2" style="height: 100px;">
-							<h4>SQL</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="javascript-js.256x256.png" alt="JavaScript" class="img-fluid mb-2" style="height: 100px;">
-							<h4>JavaScript</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="css-3.362x512.png" alt="CSS" class="img-fluid mb-2" style="height: 100px;">
-							<h4>CSS</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="html-5.362x512.png" alt="HTML" class="img-fluid mb-2" style="height: 100px;">
-							<h4>HTML</h4>
-						</div>
-						<div class="col-auto text-center">
-							<img src="pcboard.256x220.png" alt="Electronic Design" class="img-fluid mb-2" style="height: 100px;">
-							<h4>Electronic Design</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-translate="skills">Skills</h2>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="c-sharp-c.228x256.png" alt="C# programming language" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>C#</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="c-original.223x256.png" alt="C programming language" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>C</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="python.256x254.png" alt="Python programming language" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>Python</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="sql-database-generic.380x512.png" alt="SQL database" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>SQL</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="javascript-js.256x256.png" alt="JavaScript" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="css-3.362x512.png" alt="CSS3" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="html-5.362x512.png" alt="HTML5" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="col-auto text-center skill-item fade-in-up">
+                            <img src="pcboard.256x220.png" alt="Electronic Design / PCB" class="img-fluid mb-2" loading="lazy" style="height: 100px;">
+                            <h4>Electronic Design</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center fade-in-up">
                     <h2 data-translate="contact">Contact</h2>
                     <p class="lead" data-translate="contactText">You can contact me by filling out the form below.</p>
                     <form id="emailForm" class="text-left">
@@ -343,15 +526,20 @@
         <p>&copy; <span id="currentYear"></span> Mirac Orhan. <span data-translate="rights">All rights reserved.</span></p>
     </footer>
 
+    <!-- Back to Top -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
     <!-- Floating Icons -->
     <div class="floating-icons">
-        <a href="https://www.linkedin.com/in/miracorhan/" target="_blank" class="icon-link">
+        <a href="https://www.linkedin.com/in/miracorhan/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LinkedIn">
             <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://www.instagram.com/mirac.orhan_/" target="_blank" class="icon-link">
+        <a href="https://www.instagram.com/mirac.orhan_/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="Instagram">
             <i class="fab fa-instagram"></i>
         </a>
-        <a href="mailto:mirac.orhan@gmail.com" class="icon-link">
+        <a href="mailto:mirac.orhan@gmail.com" class="icon-link" aria-label="Email">
             <i class="fas fa-envelope"></i>
         </a>
     </div>
@@ -360,12 +548,98 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Custom JS -->
     <script>
-        // Automatically update the year
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
+        // =====================
+        // Typing Animation
+        // =====================
+        const typingTitles = {
+            en: ["Software Developer", "Electronic Technician", "ERP Specialist"],
+            tr: ["Yazılım Geliştirici", "Elektronik Teknisyeni", "ERP Uzmanı"],
+            nl: ["Software Ontwikkelaar", "Elektronica Technicus", "ERP Specialist"],
+            de: ["Software-Entwickler", "Elektronik-Techniker", "ERP-Spezialist"]
+        };
 
-        // Language translations
+        let currentLang = 'en';
+        let typingIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingTimer = null;
+
+        function typeEffect() {
+            const titles = typingTitles[currentLang];
+            const currentTitle = titles[typingIndex];
+            const el = document.getElementById('typingText');
+
+            if (isDeleting) {
+                el.textContent = currentTitle.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                el.textContent = currentTitle.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let speed = isDeleting ? 55 : 95;
+
+            if (!isDeleting && charIndex === currentTitle.length) {
+                speed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                typingIndex = (typingIndex + 1) % titles.length;
+                speed = 350;
+            }
+
+            typingTimer = setTimeout(typeEffect, speed);
+        }
+
+        function resetTyping(lang) {
+            currentLang = lang;
+            clearTimeout(typingTimer);
+            typingIndex = 0;
+            charIndex = 0;
+            isDeleting = false;
+            document.getElementById('typingText').textContent = '';
+            typeEffect();
+        }
+
+        // =====================
+        // Scroll Fade-in (IntersectionObserver)
+        // =====================
+        const fadeEls = document.querySelectorAll('.fade-in-up');
+
+        // Stagger skill items
+        document.querySelectorAll('.skill-item').forEach((el, i) => {
+            el.style.transitionDelay = (i * 0.08) + 's';
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        fadeEls.forEach(el => observer.observe(el));
+
+        // =====================
+        // Section h2 underline on scroll
+        // =====================
+        const h2Observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('underline-active');
+                    h2Observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('section h2').forEach(h2 => h2Observer.observe(h2));
+
+        // =====================
+        // Language Translations
+        // =====================
         const translations = {
             en: {
                 about: "About",
@@ -373,7 +647,6 @@
                 skills: "Skills",
                 contact: "Contact",
                 name: "Mirac Orhan",
-                title: "Software Developer<br>Electronic Technician",
                 aboutText: "I started to get interested in software and electronics in 2010 and continue to develop in these areas. I worked for about 6 years on electronics and server systems in the marine sector. Since 2019, I have been working with production (ERP) based systems, specializing in C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript languages. I am currently working in the software sector in the Netherlands and continuing to improve myself.",
                 experienceText: "I have over 20 software projects. As these projects are for commercial purposes, I cannot share them here. For detailed information and CV, please contact <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a>.",
                 contactText: "You can contact me by filling out the form below.",
@@ -389,7 +662,6 @@
                 skills: "Yetenekler",
                 contact: "İletişim",
                 name: "Mirac Orhan",
-                title: "Yazılım Geliştirici<br>Elektronik Teknisyeni",
                 aboutText: "2010 yılında yazılım ve elektronik alanlarına ilgi duymaya başladım ve bu alanlarda kendimi geliştirmeye devam ediyorum. Denizcilik sektöründe yaklaşık 6 yıl boyunca elektronik ve sunucu sistemleri üzerinde çalıştım. 2019'dan beri üretim (ERP) tabanlı sistemler üzerinde çalışıyorum ve C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript dillerinde uzmanlaştım. Şu anda Hollanda'da yazılım sektöründe çalışmaya ve kendimi geliştirmeye devam etmekteyim.",
                 experienceText: "20'den fazla yazılım projesi gerçekleştirdim. Bu projeler ticari amaçlı olduğu için burada paylaşamıyorum. Detaylı bilgi ve CV için lütfen <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a> adresinden iletişime geçin.",
                 contactText: "Benimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz.",
@@ -405,7 +677,6 @@
                 skills: "Vaardigheden",
                 contact: "Contact",
                 name: "Mirac Orhan",
-                title: "Software Ontwikkelaar<br>Elektronica Technicus",
                 aboutText: "Ik begon in 2010 geïnteresseerd te raken in software en elektronica en blijf me op deze gebieden ontwikkelen. Ik heb ongeveer 6 jaar gewerkt aan elektronica en serversystemen in de maritieme sector. Sinds 2019 werk ik met productie (ERP) gebaseerde systemen, gespecialiseerd in C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript talen. Momenteel werk ik in de softwaresector in Nederland en blijf ik mezelf verbeteren.",
                 experienceText: "Ik heb meer dan 20 softwareprojecten. Omdat deze projecten voor commerciële doeleinden zijn, kan ik ze hier niet delen. Voor gedetailleerde informatie en CV kunt u contact opnemen met <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a>.",
                 contactText: "U kunt contact met mij opnemen door het onderstaande formulier in te vullen.",
@@ -414,42 +685,112 @@
                 messageLabel: "Bericht:",
                 submitButton: "E-mail Verzenden",
                 rights: "Alle rechten voorbehouden."
+            },
+            de: {
+                about: "Über Mich",
+                experience: "Erfahrung",
+                skills: "Fähigkeiten",
+                contact: "Kontakt",
+                name: "Mirac Orhan",
+                aboutText: "Ich begann 2010, mich für Software und Elektronik zu interessieren, und entwickle mich in diesen Bereichen ständig weiter. Ich habe etwa 6 Jahre lang an Elektronik- und Serversystemen im maritimen Sektor gearbeitet. Seit 2019 arbeite ich mit produktionsbasierten (ERP) Systemen und habe mich auf C#, C, Python, MSSQL, ASP.NET / MVC und JavaScript spezialisiert. Derzeit arbeite ich im Softwarebereich in den Niederlanden und bilde mich kontinuierlich weiter.",
+                experienceText: "Ich habe über 20 Softwareprojekte abgeschlossen. Da diese Projekte kommerzieller Natur sind, kann ich sie hier nicht teilen. Für detaillierte Informationen und Lebenslauf kontaktieren Sie mich bitte unter <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a>.",
+                contactText: "Sie können mich über das folgende Formular kontaktieren.",
+                toLabel: "Empfänger E-Mail:",
+                subjectLabel: "Betreff:",
+                messageLabel: "Nachricht:",
+                submitButton: "E-Mail senden",
+                rights: "Alle Rechte vorbehalten."
             }
         };
 
-        // Change language function
         function changeLanguage(lang) {
             const elements = document.querySelectorAll("[data-translate]");
             elements.forEach(element => {
                 const key = element.getAttribute("data-translate");
-                if (element.tagName === "A" && key === "experienceText") {
-                    element.innerHTML = translations[lang][key]; // HTML içeriğini güncelle
-                } else {
-                    element.innerHTML = translations[lang][key] || element.textContent;
+                if (key === "title") return; // typing animation handles this
+                if (translations[lang][key] !== undefined) {
+                    element.innerHTML = translations[lang][key];
                 }
             });
+            resetTyping(lang);
         }
 
-        // Set default language to English
-        changeLanguage("en");
+        // =====================
+        // Language preference (localStorage + browser detection)
+        // =====================
+        function detectBrowserLang() {
+            const supported = ['en', 'tr', 'nl', 'de'];
+            const browserLangs = navigator.languages || [navigator.language || 'en'];
+            for (const lang of browserLangs) {
+                const code = lang.split('-')[0].toLowerCase();
+                if (supported.includes(code)) return code;
+            }
+            return 'en';
+        }
 
-        // Add event listener to language selector
-        document.getElementById("languageSelector").addEventListener("change", function() {
-            const selectedLanguage = this.value;
-            changeLanguage(selectedLanguage);
+        const savedLang = localStorage.getItem('preferredLang') || detectBrowserLang();
+        document.getElementById('languageSelector').value = savedLang;
+        changeLanguage(savedLang);
+
+        document.getElementById("languageSelector").addEventListener("change", function () {
+            const lang = this.value;
+            localStorage.setItem('preferredLang', lang);
+            changeLanguage(lang);
         });
 
-        // Email Form Submission
-        document.getElementById('emailForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Sayfanın yeniden yüklenmesini engelle
-
+        // =====================
+        // Email Form
+        // =====================
+        document.getElementById('emailForm').addEventListener('submit', function (event) {
+            event.preventDefault();
             const to = document.getElementById('to').value;
             const subject = document.getElementById('subject').value;
             const message = document.getElementById('message').value;
-
-            const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
-            window.location.href = mailtoLink;
+            window.location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
         });
+
+        // =====================
+        // Active Nav Link (scroll spy)
+        // =====================
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active-section');
+                        if (link.getAttribute('href') === '#' + entry.target.id) {
+                            link.classList.add('active-section');
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.4 });
+
+        sections.forEach(s => sectionObserver.observe(s));
+
+        // =====================
+        // Back to Top button
+        // =====================
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // =====================
+        // Footer year
+        // =====================
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
 </body>
 </html>
