@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Mirac Orhan - Software Developer and Electronic Technician with expertise in C#, Python, and more. Contact for detailed CV and projects.">
+    <meta property="og:title" content="Mirac Orhan - Software Developer">
+	<meta property="og:description" content="Expert in C#, Python, and more. Contact for detailed CV and projects.">
+	<meta property="og:image" content="https://miracorhan.com.tr/your-photo.jpg">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X4FZ8T6SRW"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-X4FZ8T6SRW');
+	</script>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<title>Mirac Orhan - CV and Introduction</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Inline CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5; /* Açık gri arka plan */
+            color: #333; /* Koyu gri metin rengi */
+        }
+
+        section {
+            padding: 60px 0;
+            background-color: #FFFFFF; /* Beyaz bölüm arka planı */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1976D2; /* Koyu mavi başlık rengi */
+        }
+
+        .navbar {
+            margin-bottom: 0;
+            background-color: #1976D2 !important; /* Koyu mavi navbar */
+        }
+
+        .navbar-brand, .nav-link {
+            color: #FFFFFF !important; /* Beyaz navbar metin rengi */
+        }
+
+        .nav-link:hover {
+            color: #FF6F61 !important; /* Turuncu hover rengi */
+        }
+
+        .bg-light {
+            background-color: #F5F5F5 !important; /* Açık gri arka plan */
+        }
+
+        .bg-dark {
+            background-color: #1976D2 !important; /* Koyu mavi arka plan */
+        }
+
+        .text-white {
+            color: #FFFFFF !important; /* Beyaz metin rengi */
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: #333; /* Koyu gri metin rengi */
+        }
+
+        .list-unstyled {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .list-unstyled li {
+            margin-bottom: 10px;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .btn-primary {
+            background-color: #1976D2; /* Koyu mavi buton rengi */
+            border-color: #1976D2;
+        }
+
+        .btn-primary:hover {
+            background-color: #0D47A1; /* Daha koyu mavi hover rengi */
+            border-color: #0D47A1;
+        }
+
+        .btn-secondary {
+            background-color: #FF6F61; /* Turuncu buton rengi */
+            border-color: #FF6F61;
+        }
+
+        .btn-secondary:hover {
+            background-color: #E65A50; /* Daha koyu turuncu hover rengi */
+            border-color: #E65A50;
+        }
+
+        /* Floating Icons */
+        .floating-icons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000; /* Diğer içeriklerin üzerinde kalmasını sağlar */
+        }
+
+        .icon-link {
+            background-color: #1976D2; /* Koyu mavi ikon rengi */
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti ekler */
+        }
+
+        .icon-link:hover {
+            background-color: #0D47A1; /* Daha koyu mavi hover rengi */
+        }
+
+        .icon-link:nth-child(2) {
+            background-color: #FF6F61; /* Turuncu ikon rengi */
+        }
+
+        .icon-link:nth-child(2):hover {
+            background-color: #E65A50; /* Daha koyu turuncu hover rengi */
+        }
+
+        .icon-link:nth-child(3) {
+            background-color: #4CAF50; /* Yeşil ikon rengi */
+        }
+
+        .icon-link:nth-child(3):hover {
+            background-color: #45A049; /* Daha koyu yeşil hover rengi */
+        }
+
+        /* Language Selector */
+        .language-selector {
+            margin-left: auto;
+        }
+
+        .language-selector select {
+            background-color: #1976D2; /* Koyu mavi arka plan */
+            color: #FFFFFF; /* Beyaz metin rengi */
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .language-selector select:hover {
+            background-color: #0D47A1; /* Daha koyu mavi hover rengi */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar-nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .language-selector {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+            .floating-icons {
+                bottom: 10px;
+                right: 10px;
+            }
+            .icon-link {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mirac Orhan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" data-translate="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience" data-translate="experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills" data-translate="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" data-translate="contact">Contact</a>
+                </li>
+            </ul>
+            <!-- Language Selector -->
+            <div class="language-selector">
+                <select id="languageSelector">
+                    <option value="en">English</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="nl">Nederlands</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <img src="your-photo.jpg" alt="Mirac Orhan" class="img-fluid rounded-circle mb-4" style="max-width: 250px;">
+                    <h2 data-translate="name">Mirac Orhan</h2>
+                    <p class="lead" data-translate="title">Software Developer<br>Electronic Technician</p>
+                </div>
+                <div class="col-lg-6">
+                    <h2 data-translate="about">About</h2>
+                    <p class="lead" data-translate="aboutText">
+                        I started to get interested in software and electronics in 2010 and continue to develop in these areas. I worked for about 6 years on electronics and server systems in the marine sector. Since 2019, I have been working with production (ERP) based systems, specializing in C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript languages. I am currently working in the software sector in the Netherlands and continuing to improve myself.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-translate="experience">Experience</h2>
+                    <p class="lead" data-translate="experienceText">
+                        I have over 20 software projects. As these projects are for commercial purposes, I cannot share them here. For detailed information and CV, please contact <a href="mailto:mirac.orhan@gmail.com">mirac.orhan@gmail.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Skills Section -->
+	<section id="skills" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 data-translate="skills">Skills</h2>
+					<div class="row justify-content-center gap-4">
+						<div class="col-auto text-center">
+							<img src="c-sharp-c.228x256.png" alt="C#" class="img-fluid mb-2" style="height: 100px;">
+							<h4>C#</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="c-original.223x256.png" alt="C" class="img-fluid mb-2" style="height: 100px;">
+							<h4>C</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="python.256x254.png" alt="Python" class="img-fluid mb-2" style="height: 100px;">
+							<h4>Python</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="sql-database-generic.380x512.png" alt="SQL" class="img-fluid mb-2" style="height: 100px;">
+							<h4>SQL</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="javascript-js.256x256.png" alt="JavaScript" class="img-fluid mb-2" style="height: 100px;">
+							<h4>JavaScript</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="css-3.362x512.png" alt="CSS" class="img-fluid mb-2" style="height: 100px;">
+							<h4>CSS</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="html-5.362x512.png" alt="HTML" class="img-fluid mb-2" style="height: 100px;">
+							<h4>HTML</h4>
+						</div>
+						<div class="col-auto text-center">
+							<img src="pcboard.256x220.png" alt="Electronic Design" class="img-fluid mb-2" style="height: 100px;">
+							<h4>Electronic Design</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-translate="contact">Contact</h2>
+                    <p class="lead" data-translate="contactText">You can contact me by filling out the form below.</p>
+                    <form id="emailForm" class="text-left">
+                        <div class="form-group">
+                            <label for="to" data-translate="toLabel">Recipient Email:</label>
+                            <input type="email" class="form-control" id="to" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-translate="subjectLabel">Subject:</label>
+                            <input type="text" class="form-control" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-translate="messageLabel">Message:</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-translate="submitButton">Send Email</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="currentYear"></span> Mirac Orhan. <span data-translate="rights">All rights reserved.</span></p>
+    </footer>
+
+    <!-- Floating Icons -->
+    <div class="floating-icons">
+        <a href="https://www.linkedin.com/in/miracorhan/" target="_blank" class="icon-link">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/mirac.orhan_/" target="_blank" class="icon-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:mirac.orhan@gmail.com" class="icon-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Automatically update the year
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+        // Language translations
+        const translations = {
+            en: {
+                about: "About",
+                experience: "Experience",
+                skills: "Skills",
+                contact: "Contact",
+                name: "Mirac Orhan",
+                title: "Software Developer<br>Electronic Technician",
+                aboutText: "I started to get interested in software and electronics in 2010 and continue to develop in these areas. I worked for about 6 years on electronics and server systems in the marine sector. Since 2019, I have been working with production (ERP) based systems, specializing in C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript languages. I am currently working in the software sector in the Netherlands and continuing to improve myself.",
+                experienceText: "I have over 20 software projects. As these projects are for commercial purposes, I cannot share them here. For detailed information and CV, please contact <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a>.",
+                contactText: "You can contact me by filling out the form below.",
+                toLabel: "Recipient Email:",
+                subjectLabel: "Subject:",
+                messageLabel: "Message:",
+                submitButton: "Send Email",
+                rights: "All rights reserved."
+            },
+            tr: {
+                about: "Hakkımda",
+                experience: "Deneyim",
+                skills: "Yetenekler",
+                contact: "İletişim",
+                name: "Mirac Orhan",
+                title: "Yazılım Geliştirici<br>Elektronik Teknisyeni",
+                aboutText: "2010 yılında yazılım ve elektronik alanlarına ilgi duymaya başladım ve bu alanlarda kendimi geliştirmeye devam ediyorum. Denizcilik sektöründe yaklaşık 6 yıl boyunca elektronik ve sunucu sistemleri üzerinde çalıştım. 2019'dan beri üretim (ERP) tabanlı sistemler üzerinde çalışıyorum ve C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript dillerinde uzmanlaştım. Şu anda Hollanda'da yazılım sektöründe çalışmaya ve kendimi geliştirmeye devam etmekteyim.",
+                experienceText: "20'den fazla yazılım projesi gerçekleştirdim. Bu projeler ticari amaçlı olduğu için burada paylaşamıyorum. Detaylı bilgi ve CV için lütfen <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a> adresinden iletişime geçin.",
+                contactText: "Benimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz.",
+                toLabel: "Alıcı E-posta:",
+                subjectLabel: "Konu:",
+                messageLabel: "Mesaj:",
+                submitButton: "E-posta Gönder",
+                rights: "Tüm hakları saklıdır."
+            },
+            nl: {
+                about: "Over Mij",
+                experience: "Ervaring",
+                skills: "Vaardigheden",
+                contact: "Contact",
+                name: "Mirac Orhan",
+                title: "Software Ontwikkelaar<br>Elektronica Technicus",
+                aboutText: "Ik begon in 2010 geïnteresseerd te raken in software en elektronica en blijf me op deze gebieden ontwikkelen. Ik heb ongeveer 6 jaar gewerkt aan elektronica en serversystemen in de maritieme sector. Sinds 2019 werk ik met productie (ERP) gebaseerde systemen, gespecialiseerd in C#, C, Python, MSSQL, ASP.NET / MVC, JavaScript talen. Momenteel werk ik in de softwaresector in Nederland en blijf ik mezelf verbeteren.",
+                experienceText: "Ik heb meer dan 20 softwareprojecten. Omdat deze projecten voor commerciële doeleinden zijn, kan ik ze hier niet delen. Voor gedetailleerde informatie en CV kunt u contact opnemen met <a href='mailto:mirac.orhan@gmail.com'>mirac.orhan@gmail.com</a>.",
+                contactText: "U kunt contact met mij opnemen door het onderstaande formulier in te vullen.",
+                toLabel: "Ontvanger E-mail:",
+                subjectLabel: "Onderwerp:",
+                messageLabel: "Bericht:",
+                submitButton: "E-mail Verzenden",
+                rights: "Alle rechten voorbehouden."
+            }
+        };
+
+        // Change language function
+        function changeLanguage(lang) {
+            const elements = document.querySelectorAll("[data-translate]");
+            elements.forEach(element => {
+                const key = element.getAttribute("data-translate");
+                if (element.tagName === "A" && key === "experienceText") {
+                    element.innerHTML = translations[lang][key]; // HTML içeriğini güncelle
+                } else {
+                    element.innerHTML = translations[lang][key] || element.textContent;
+                }
+            });
+        }
+
+        // Set default language to English
+        changeLanguage("en");
+
+        // Add event listener to language selector
+        document.getElementById("languageSelector").addEventListener("change", function() {
+            const selectedLanguage = this.value;
+            changeLanguage(selectedLanguage);
+        });
+
+        // Email Form Submission
+        document.getElementById('emailForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Sayfanın yeniden yüklenmesini engelle
+
+            const to = document.getElementById('to').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+            window.location.href = mailtoLink;
+        });
+    </script>
+</body>
+</html>
